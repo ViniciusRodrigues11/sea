@@ -106,3 +106,24 @@ body {
     
   transform: rotate(-30deg);
 }
+
+@media (max-width: 800px){
+    .sea-background{
+        flex-direction: column;
+        justify-content: center;
+        background-position: center top;
+    }
+    .sea-background h1{
+        font-size: 30px;
+    }
+    .sea-background p{
+        font-size: 15px;
+    }
+    .nav{
+    width: 8vw;
+    }
+    .carousel{
+        width: 100vw !important;
+    }
+
+}
