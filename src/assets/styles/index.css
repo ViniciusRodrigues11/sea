@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap');
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sea-background {
+    background-image: url('../images/bg-sea.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 2s;
+}
+
+#favorites {
+    background-image: url('../images/bg-sea2.jpg');
+}
+
+#animals{
+    background-image: url('../images/bg-sea3.jpg');
+}
+
+.sea-background h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.sea-background p {
+    
+    color: #fff;
+    font-size: 25px;
+    width: 150px;
+    letter-spacing: 5px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    background: rgba(255, 255, 255, 0.288);
+    width: 4vw;
+    z-index: 1000;
+    height: 100vh;
+}
+
+.nav ul {
+    padding-inline-start: 0;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin: 35px 0;
+    cursor: pointer;
+}
+
+.nav ul li span {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.carousel{
+    width: 50vw !important;
+}
+
+.carousel .carousel-item {
+    width: 400px !important;
+}
+
+.imagetitle{
+    color: #fff;
+    text-align: center;
+}
+
+.animals{
+    display: flex;
+    z-index: 1800;
+    flex-direction: column;
+    width: 50px;
+    height: fit-content;
+}
+
+.animals ul li{
+    margin: 40px 0;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.animals ul li:hover{
+    
+  transform: rotate(-30deg);
+}
