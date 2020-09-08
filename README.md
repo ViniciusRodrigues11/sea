@@ -1,2 +1,2 @@
-# sea
+# Sea
  training css
